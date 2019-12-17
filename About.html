@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr"> <!--https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css" /> <!-- link to the stylesheet -->
+    <title>About</title>
+    <link rel="icon" href="logo1.png"> <!--https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/ -->
+</head>
+
+<body>
+<div id="myHeader">
+    <img id="logo" src="logo1.png" alt="Logo">
+    <h1 id="title">MusicSound</h1>
+</div>
+
+<form class="menuForm">
+    <input type="submit" formaction = "MusicSound.html" value="Home" class="menu">
+    <input type="submit" formaction ="music.html" value="Music" class="menu">
+    <input type="submit" formaction ="FeaturedArtist.html" value="Featured Artist" class="menuFeaturedArtist">
+    <input type="submit" formaction ="#" value="About" class="menu">
+</form>
+<!-- The formaction command i found in the following url:
+	https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html -->
+
+<img id="audience" src="audience-1867754_1920.jpg" alt="MyPicture">
+
+<h1 id="about"> About the website: </h1>
+
+<div class="pFont">
+    <p id="description"> MusicSound is responsive for all mobile phones and tablets.
+        I have used the principles of HCI.
+        I used large sized letters because on mobile platforms it gives the opportunity to
+        users to walk and using this application at the same time.
+        Also I used these specific colors and font because
+        are <strong>easier to read.</strong>
+        Moreover, i used the alternative attribute to give a name to each image in order to be <strong>accessible</strong>
+        even for blind people. In addition i chose png instead of bitmaps images in order to decrease the network traffic.
+        About the <strong>affordance</strong>, there is at the top and at the bottom a menu that navigates
+        the users. Furthermore, when the user clicks to a link or on the menu, it changes color so it
+        gives <strong>feedback</strong> to the users for their action. Lastly, there is <strong>consistency</strong> because the menu which
+        contains all the pages of the website it is stable on top of the screen even if the user scrolls down.
+    </p>
+</div>
+
+<h2 id="references"> References: </h2>
+
+<ol id="referencesURL">
+    <li class="listRef">W3schools (ND),"CSS scroll-behavior Property", "https://www.w3schools.com/cssref/pr_scroll-behavior.asp", Accessed at [10 November 2019]. </li>
+    <li class="listRef">W3schools (ND),"How to Create an HTML Button that Acts Like a Link", "https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html", Accessed at [10 November 2019].</li>
+    <li class="listRef">W3schools (ND),"Declaring language in HTML", "https://www.w3.org/International/questions/qa-html-language-declarations", Accessed at [23 November 2019].</li>
+    <li class="listRef">Nayonika (ND), "How to add icon logo in title bar using HTML ?", "https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/", Accessed at [25 November 2019]. </li>
+    <li class="listRef">Luke (2018), "5 DESIGN PRINCIPLES OF HUMAN COMPUTER INTERACTION", "http://www.lukemurphy.info/5-design-principles-of-human-computer-interaction/", Accessed at [25 November 2019]. </li>
+    <li class="listRef">W3schools (ND),"CSS Media Queries - Examples", "https://www.w3schools.com/css/css3_mediaqueries_ex.asp", Accessed at [1 December 2019].</li>
+</ol>
+<footer id="myFooter">
+    <ul class="menuFormFooter">
+        <li><a href="MusicSound.html">Home</a></li>
+        <li><a href="music.html"> Music</a> </li>
+        <li><a href="FeaturedArtist.html">Featured Artist</a> </li>
+        <li class="homeFooter"><a href="#"> About</a> </li>
+    </ul>
+</footer>
+</body>
+</html>

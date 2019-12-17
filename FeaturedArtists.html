@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr"> <!--https://www.w3.org/International/questions/qa-html-language-declarations -->
+
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css" /> <!-- link to the stylesheet -->
+    <title>Featured Artist</title>
+    <link rel="icon" href="logo1.png"> <!--https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/ -->
+</head>
+
+<body>
+<div id="myHeader">
+    <img id="logo" src="logo1.png" alt="Logo">
+    <h1 id="title">MusicSound</h1>
+</div>
+
+<form class="menuForm">
+    <input type="submit" formaction = "MusicSound.html" value="Home" class="menu">
+    <input type="submit" formaction ="music.html" value="Music" class="menu">
+    <input type="submit" formaction ="#" value="Featured Artist" class="menuFeaturedArtist">
+    <input type="submit" formaction ="About.html" value="About" class="menu">
+</form>
+<!-- The formaction command i found in the following url:
+	https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html -->
+
+<h1 id="featuredArtistTitle"> Featured artist: Monarchy</h1>
+
+<h2 id="artistBio"> Artist biography: </h2>
+
+<p id="bioText" id="bText">
+    Monarchy are the British rock band made up of Fred Venus, Bryan, June, Roger Cobbler
+    and John Vicars. They formed in Preston in 1970 after Bryan and Roger left their
+    previous band 'Cheesy Grin'. They achieved moderate chart success and have played to
+    large stadiums such as the Globe Arena, Deepdale Stadium and Gigg Lane. Their first
+    album 'Monarchy' reached a high point of 164 in the album charts in 1974, while their
+    1975 album 'Night at the Guildhall' brought them international success and was the top
+    selling album that year in Liechtenstein. That album featured the single 'Slavic Symphony',
+    which stayed at number one in the UK for nine seconds.
+</p>
+
+<p id="smallAlbums"> Albums: </p>
+
+<div class="images">
+
+    <img id="monarchyAlbum" class="images" src="monarchy-album.jpg" alt="Monarchy-album">
+    <div id="MAtext">Monarchy</div>
+
+    <img id="monarchyNATG" class="images" src="monarchy-NATG.jpg" alt="Monarchy-NATG">
+    <div id="NATG">Night at the Guildhall</div>
+
+    <img id="monarchyLudo" class="images" src="monarchy-ludo.jpg" alt="Monarchy-ludo">
+    <div id="ludo">Ludo</div>
+
+    <img id="monarchyDE" class="images" src="monarchy-DE.jpg" alt="Monarchy-DE">
+    <div id="DE">Double Entendre</div>
+
+    <img id="monarchyRAAI" class="images" src="monarchy-RAAI.jpg" alt="Monarchy-RAAI">
+    <div id="RAAI">Read All About It</div>
+
+    <img id="monarchyES" class="images" src="monarchy-ES.jpg" alt="Monarchy-ES">
+    <div id="ES">Edward Shockwave</div>
+    <div id="ESpar">(soundtrack to the film)</div>
+</div>
+
+<footer id="myFooter3">
+    <ul class="menuFormFooter">
+        <li><a href="MusicSound.html">Home</a></li>
+        <li><a href="music.html"> Music</a> </li>
+        <li class="homeFooter"><a href="#">Featured Artist</a> </li>
+        <li><a href="About.html"> About</a> </li>
+    </ul>
+</footer>
+</body>
+</html>
