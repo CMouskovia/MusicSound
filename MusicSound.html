@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr"> <!--https://www.w3.org/International/questions/qa-html-language-declarations -->
+
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css" /> <!-- link to the stylesheet -->
+    <title>MusicSound</title>
+    <link rel="icon" href="logo1.png"> <!--https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/ -->
+</head>
+
+<body>
+<div id="myHeader">
+    <img id="logo" src="logo1.png" alt="Logo">
+    <h1 id="title">MusicSound</h1>
+</div>
+
+<form class="menuForm">
+    <input type="submit" formaction = "MusicSound.html" value="Home" class="menu">
+    <input type="submit" formaction ="music.html" value="Music" class="menu">
+    <input type="submit" formaction ="FeaturedArtist.html" value="Featured Artist" class="menuFeaturedArtist">
+    <input type="submit" formaction ="About.html" value="About" class="menu">
+</form>
+<!-- The formaction command i found in the following url:
+https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html -->
+
+<div id="welcome">  Welcome to the MusicSound website! </div>
+
+<div id="firstPage">
+    <div id="details"> Some details about featured artists:</div>
+    <img id="artists" src="musician-349790_1920.jpg" alt="MyPicture">
+    <div id="featuredArtists"> <a href="FeaturedArtist.html"> Monarchy</a>/<a href="#">Disoriented Scoundrel</a>/<a href="#">Skittlz</a>/<a href="#">Slow Hatter</a>/<a href="#">Mallard</a><a href="#">Frank Saturn</a>/
+        <a href="#">Creepy Cat</a>/<a href="#">Watering Hole</a>/<a href="#">Great Big Trucks</a>/<a href="#">Mains Power</a>/<a href="#">The Boulder Perennials</a>/<a href="#">Polar Primates</a>/</div>
+</div>
+
+<table id="packetsTable">
+    <tr>
+        <th class="titlesForPackets">Packets </th>
+        <th class="titlesForPackets">Price </th>
+        <th class="titlesForPackets">Features </th>
+    </tr>
+
+    <tr class="goldClass">
+        <td id="goldLevelTable">Gold Level</td>
+        <td class="price">£4.99</td>
+        <td>Unlimited access to our entire catalogue</td>
+    </tr>
+
+    <tr class="silverClass">
+        <td id="silverLevelTable">Silver Level</td>
+        <td class="price">£2.99</td>
+        <td>Unlimited usage with ad support</td>
+    </tr>
+
+    <tr class="platinumClass">
+        <td id="platinumLevelTable">Platinum Level</td>
+        <td class="price">£6.99</td>
+        <td>Unlimited music streaming on unlimited devices</td>
+    </tr>
+
+    <tr class="familyClass">
+        <td id="familyPackTable">Family Pack</td>
+        <td class="price">£9.99</td>
+        <td>Up to 4 separate Gold accounts in one pack</td>
+    </tr>
+</table>
+
+<div>
+    <img id="headphones" src="headphones-791078_1280.jpg" alt="Headphones">
+</div>
+
+<footer id="myFooter">
+    <ul class="menuFormFooter">
+        <li class="homeFooter"><a href="#">Home</a></li>
+        <li><a href="music.html">Music</a> </li>
+        <li><a href="FeaturedArtist.html"> Featured Artist</a> </li>
+        <li><a href="About.html"> About</a> </li>
+    </ul>
+</footer>
+
+</body>
+</html>
